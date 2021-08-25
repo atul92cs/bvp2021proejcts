@@ -8,8 +8,8 @@ include_once'./config/database.php';
 $table='contact';
 $name=$_POST['name'];
 $phone=$_POST['phone'];
-$picture=$_FILES['picture'];
-$cgroup=$_POST['group'];
+//$picture=$_FILES['picture'];
+//$cgroup=$_POST['group'];
 if($_POST['email'])
 {
     $email=$_POST['email'];
